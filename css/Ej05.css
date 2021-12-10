@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,500&display=swap');
+
+:root{
+    --main-color: purple;
+    --black: black;
+    --bg:#010103;
+    --border:.1rem solid rgba(255,255,255,.3)
+}
+*{
+    font-family: 'Playfair Display', serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+
+}
+html{
+    font-size: 62.5%;
+    overflow:hide ;
+    scroll-padding-top:9rem;
+    scroll-behavior: smooth;
+}
