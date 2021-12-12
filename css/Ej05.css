@@ -1,14 +1,28 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Roboto:wght@100;300;400;500;700&display=swap');
 
 *{
     font-family: 'Bebas Neue', cursive;
     font-family: 'Open Sans Condensed', sans-serif;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,500&display=swap');
+
+:root{
+    --main-color: purple;
+    --black: black;
+    --bg:#010103;
+    --border:.1rem solid rgba(255,255,255,.3)
+}
+*{
+    font-family: 'Playfair Display', serif;
+>>>>>>> d426acd38303be58935fbd59520bb92d086030e9
     margin: 0; padding: 0;
     box-sizing: border-box;
     outline: none; border: none;
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
+<<<<<<< HEAD
 }
 
 section{
@@ -101,4 +115,13 @@ footer{
     background-color: rgb(170, 170, 170);
     padding: 20px;
     margin-top: 10px;
+=======
+
+}
+html{
+    font-size: 62.5%;
+    overflow:hide ;
+    scroll-padding-top:9rem;
+    scroll-behavior: smooth;
+>>>>>>> d426acd38303be58935fbd59520bb92d086030e9
 }
