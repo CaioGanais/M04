@@ -1,0 +1,15 @@
+*{
+    border: 1px solid black;
+}
+div{
+    background-color: yellowgreen;
+    width: 12rem;
+    height: 150px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    background-color: blueviolet;
+}

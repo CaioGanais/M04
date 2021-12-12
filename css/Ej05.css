@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+section{
+    margin: 5px 0;
+}
+
+.title{
+    width: 100%;
+    background-color: black;
+    font-size: 40px;
+    color: white;
+}
+
+.title div {
+    padding: 10px;
+    margin: 0;
+}
+
+.subtitle{
+    background-color: rgb(141, 141, 141);
+    display: flex;
+}
+
+.subtitle div{
+    width: 50%;
+    font-size: 30px;
+    padding: 10px 0 10px 10px;
+}
+.menus a{
+    width: 25%;
+    font-size: 25px;
+    padding: 20rem 0 20rem 20rem ;
+}
+nav{
+    background-color: lightgray;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    width: 50%;
+    padding: 6px 0;
+}
+
+main section{
+    display: inline-block;
+    margin-top: 10px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    background-color: rgb(163, 163, 163);
+    justify-content: center;
+    float: left;
+    color: rgb(117, 117, 117)
+}
+
+.box span{
+    align-self: center;
+}
+
+.box .box_footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.text-box{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.text-box div{
+    width: 50%;
+}
+
+.text{
+    padding: 0 10px;
+    display: flex;
+}
+
+footer{
+    background-color: rgb(170, 170, 170);
+    padding: 20px;
+    margin-top: 10px;
+}
